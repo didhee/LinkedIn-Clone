@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>LinkedIn Clone</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="/script.js" defer></script>
+	</head>
+	<body>
+		<!------------------------ navbar ------------------------->
+		<nav class="navbar">
+			<div class="navbar-left">
+				<a href="index.html" class="logo"><img src="/images/logo.png" alt="logo" /> </a>
+
+				<div class="search-box">
+					<img src="/images/search.png" alt="" />
+					<input type="text" placeholder="Search" />
+				</div>
+			</div>
+			<div class="navbar-center">
+				<ul>
+					<li>
+						<a href="index.html" class="active-link"
+							><img src="/images/home.png" alt="home" /><span>Home</span></a
+						>
+					</li>
+					<li>
+						<a href="#"
+							><img src="/images/network.png" alt="my-network" /><span>My Network</span></a
+						>
+					</li>
+					<li>
+						<a href="#"><img src="/images/jobs.png" alt="jobs" /><span>Jobs</span></a>
+					</li>
+					<li>
+						<a href="#"><img src="/images/message.png" alt="messaging" /><span>Messaging</span></a>
+					</li>
+					<li>
+						<a href="#"
+							><img src="/images/notification.png" alt="notification" /><span
+								>Notifications</span
+							></a
+						>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar-right">
+				<div class="online">
+					<img src="/images/user-1.png" alt="user1" class="nav-profile-img" id="navImg" />
+				</div>
+			</div>
+
+			<!---------------------- profile dropdown menu ---------------------->
+			<div class="profile-menu-wrap" id="profileMenu">
+				<div class="profile-menu">
+					<div class="user-info">
+						<img src="/images/user-1.png" alt="" />
+						<div>
+							<h3>Johnny Doe</h3>
+							<a href="profile.html">See your profile</a>
+						</div>
+					</div>
+
+					<hr />
+
+					<a href="#" class="profile-menu-link">
+						<img src="/images/feedback.png" alt="" />
+						<p>give feedback</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="/images/setting.png" alt="" />
+						<p>settings & privacy</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="/images/help.png" alt="" />
+						<p>help & support</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="/images/display.png" alt="" />
+						<p>display & accessibility</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="/images/logout.png" alt="" />
+						<p>logout</p>
+						<span>></span>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-------------------------- navbar end -------------------------->
+
+		<!--------------------------- content --------------------------------->
+		<div class="container">
+			<!-- -------------- profile main -------------- -->
+			<div class="profile-main">
+				<div class="profile-container">
+					<img src="/images/cover-pic.png" alt="" width="100%" class="profile-cover-pic" />
+
+					<div class="profile-container-inner">
+						<img src="/images/user-1.png" alt="" class="profile-pic" />
+						<h1>Johnny Doe</h1>
+						<b>Web Developer at Microsoft | Former Developer at DataStack and Intern at Oracle</b>
+						<p>London, United Kingdom &middot; <a href="#">Contact info</a></p>
+
+						<div class="mutual-connection">
+							<img src="/images/user-2.png" alt="" />
+							<span>1 mutual connection: Brad Morningstar</span>
+						</div>
+
+						<div class="profile-btn">
+							<a href="#" class="primary-btn"><img src="/images/connect.png" alt="" />Connect</a>
+							<a href="#"><img src="/images/chat.png" alt="" />Message</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile-description">
+					<h2>About</h2>
+					<p>
+						A fervent web developer focused on solving problems using one line of code at a time. I
+						leverage the web development tools and technology to help build search engine optimized
+						websites. I am proficient in writing JavaScript, TypeScript, React and Vue. When I am
+						not coding, I am reading books or, you can find me in the gym. I love dogs, music, arts
+						in general. I love kind people too.
+					</p>
+
+					<a href="#" class="see-more-link">See more...</a>
+				</div>
+
+				<div class="profile-description">
+					<h2>Experience</h2>
+					<div class="profile-description-row">
+						<img src="/images/microsoft.png" alt="" />
+
+						<div>
+							<h3>Lead FrontEnd Engineer</h3>
+							<b>Microsoft &middot; Full-Time</b>
+							<b>Jan 2021 - Present &middot; 1.9 months</b>
+							<p>
+								Microsoft Corporation is an American multinational technology corporation which
+								produces computer software, consumer electronics, personal computers, and related
+								services headquartered at the Microsoft Redmond campus located in Redmond,
+								Washington, United States.
+							</p>
+							<hr />
+						</div>
+					</div>
+
+					<div class="profile-description-row">
+						<img src="/images/google.png" alt="" />
+
+						<div>
+							<h3>Full Stack Developer</h3>
+							<b>Google Inc &middot; Full-Time</b>
+							<b>Sep 2018 - Oct 2020 &middot; 2.1 years</b>
+							<p>
+								Google LLC is an American multinational technology company that focuses on search
+								engine technology, online advertising, cloud computing, computer software, quantum
+								computing, e-commerce, artificial intelligence, and consumer electronics.
+							</p>
+							<hr />
+						</div>
+					</div>
+
+					<div class="profile-description-row">
+						<img src="/images/slack.png" alt="" />
+
+						<div>
+							<h3>Web Developer Intern</h3>
+							<b>Slack &middot; Full-Time</b>
+							<b>Apr 2017 - Jun 2018 &middot; 1.2 years</b>
+							<p>
+								Slack is a messaging program designed specifically for the office, but has also been
+								adopted for personal use.
+							</p>
+						</div>
+					</div>
+
+					<hr />
+
+					<a href="#" class="experience-link"
+						>Show all 5 experiences <img src="/images/right-arrow.png" alt=""
+					/></a>
+				</div>
+
+				<div class="profile-description">
+					<h2>Education</h2>
+					<div class="profile-description-row">
+						<img src="/images/stanford.png" alt="" />
+
+						<div>
+							<h3>Stanford University</h3>
+							<b>BSEE, Computer Engineering</b>
+							<b>2016 - 2019</b>
+							<hr />
+						</div>
+					</div>
+
+					<div class="profile-description-row">
+						<img src="/images/north.png" alt="" />
+
+						<div>
+							<h3>Northwestern University</h3>
+							<b>BSEE, Computer Science</b>
+							<b>2012 - 2015</b>
+							<hr />
+						</div>
+					</div>
+
+					<div class="profile-description-row">
+						<img src="/images/mit.png" alt="" />
+
+						<div>
+							<h3>Thomas Jefferson High School for Science and Technology</h3>
+							<b>Senior High School</b>
+							<b>2005 - 2015</b>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile-description">
+					<h2>Skills</h2>
+					<a href="#" class="skills-btn">Leadership</a>
+					<a href="#" class="skills-btn">Web Design</a>
+					<a href="#" class="skills-btn">Development</a>
+					<a href="#" class="skills-btn">UI/UX</a>
+					<a href="#" class="skills-btn">Planning</a>
+					<a href="#" class="skills-btn">JavaScript</a>
+					<a href="#" class="skills-btn">React</a>
+					<a href="#" class="skills-btn">Coding</a>
+					<a href="#" class="skills-btn">Machine Learning and Python</a>
+					<a href="#" class="skills-btn">C# and C++</a>
+					<a href="#" class="skills-btn">Entrepreneurship</a>
+					<a href="#" class="skills-btn">Communication</a>
+				</div>
+
+				<div class="profile-description">
+					<h2>Languages</h2>
+					<a href="#" class="language-btn">English</a>
+					<a href="#" class="language-btn">French</a>
+					<a href="#" class="language-btn">Spanish and Latina</a>
+					<a href="#" class="language-btn">German</a>
+					<a href="#" class="language-btn">Arabic</a>
+				</div>
+			</div>
+
+			<!-- -------------- profile sidebar -------------- -->
+			<div class="profile-sidebar">
+				<div class="sidebar-ad">
+					<small>Ad &middot; &middot; &middot;</small>
+					<p>Master the 5 principles of web design</p>
+
+					<div>
+						<img src="/images/user-1.png" alt="" />
+						<img src="/images/mi-logo.png" alt="" />
+					</div>
+
+					<b>Brand and Demand in Xiaomi</b>
+					<a href="#" class="ad-link">learn more</a>
+				</div>
+
+				<div class="sidebar-people">
+					<h3>People you may know</h3>
+					<div class="sidebar-people-row">
+						<img src="/images/user-3.png" alt="" />
+
+						<div>
+							<h2>Alina Kings</h2>
+							<p>Head of Human Resources at Amazon</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+
+					<div class="sidebar-people-row">
+						<img src="/images/user-4.png" alt="" />
+
+						<div>
+							<h2>Hannah Japhet</h2>
+							<p>Project Manager at Netflix</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+
+					<div class="sidebar-people-row">
+						<img src="/images/user-5.png" alt="" />
+
+						<div>
+							<h2>Charles Adkins</h2>
+							<p>Lead FrontEnd Engineer at Alibaba</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+
+					<div class="sidebar-people-row">
+						<img src="/images/user-3.png" alt="" />
+
+						<div>
+							<h2>Blue Traversy</h2>
+							<p>Senior BackEnd Engineer at Bloomberg</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+
+					<div class="sidebar-people-row">
+						<img src="/images/user-2.png" alt="" />
+
+						<div>
+							<h2>Azreal Darlington</h2>
+							<p>Product Designer at Apple</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+
+					<div class="sidebar-people-row">
+						<img src="/images/user-1.png" alt="" />
+
+						<div>
+							<h2>Georgie Peters</h2>
+							<p>Quality Assurance Enginner at Meta</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile-footer">
+			<div class="sidebar-useful-links">
+				<a href="#">about</a>
+				<a href="#">accessibility</a>
+				<a href="#">help center</a>
+				<a href="#">privacy policy</a>
+				<a href="#">advertising</a>
+				<a href="#">get the app</a>
+				<a href="#">more</a>
+
+				<div class="copyright-msg">
+					<img src="/images/logo.png" alt="" />
+					<p>Linkedup &#169; 2022. All right reserved</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
